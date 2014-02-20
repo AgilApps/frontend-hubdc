@@ -1,0 +1,102 @@
+/*Template hubdc in sccs*/
+
+$pad: 0;
+$color: #2e4680;
+$color2: #eee;
+$color3: #fff;
+$pos: left;
+$left: 1500px;
+$width: 3000px;
+$pos1: right; 
+$size: 36px;
+$size2: 24px;
+$family: segoe UI,arial;
+$position: fixed;
+
+html, body{
+		margin:$pad;
+		padding:$pad;
+  		font-family:$family;
+	}
+h1{
+	font-size: $size;
+	font-weight: normal;
+	font-color: $color;
+	font-family: $family;
+}
+
+h2{
+	font-size: $size2;
+	font-weight:normal;
+	font-color: $color;
+	font-family: $family;
+}
+
+.header{
+	position: $position;
+	top: $pad;
+	left: $pad;
+	height: 80px;
+	width: 100%;
+	overflow: hidden;
+	background: url('../images/img1.png') repeat top left;
+	z-index: 1000;
+
+	.logo{
+		float: $pos;
+		padding: 22px;
+		padding-left:30px;
+	}
+}
+
+.scroll{
+	position: $position;
+	bottom: 0;
+	left: 0;
+}
+.horizon{
+	z-index: 1;
+	width: $width ;
+}
+
+.middle{
+	z-index: 500;
+	width:4000px;
+}
+
+.front{
+	z-index:1000;
+	width: 4500px;
+	height: 500px;
+}
+
+.intro{
+	position: absolute;
+	left: 500px;
+	top:0px;
+	padding-right:50px;
+	background: url('../images/scroll.png') no-repeat right 5px;
+}
+
+.page{
+	top: 0px;
+	width:500px;
+	background:$color3;
+	padding: 10px 30px;
+	border: 1px $color2 solid;
+	position: absolute;
+}
+
+.description{
+	left: 1500px;
+}
+
+.documentation{
+    left: 2450px;
+    width: 700px;
+}
+.options
+{
+    width: 350px;
+    left: 3800px;
+}

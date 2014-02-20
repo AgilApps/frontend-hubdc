@@ -1,0 +1,75 @@
+/*Template hubdc in sccs*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: segoe UI, arial; }
+
+h1 {
+  font-size: 36px;
+  font-weight: normal;
+  font-color: #2e4680;
+  font-family: segoe UI, arial; }
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  font-color: #2e4680;
+  font-family: segoe UI, arial; }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  overflow: hidden;
+  background: url("../images/img1.png") repeat top left;
+  z-index: 1000; }
+  .header .logo {
+    float: left;
+    padding: 22px;
+    padding-left: 30px; }
+
+.scroll {
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+
+.horizon {
+  z-index: 1;
+  width: 3000px; }
+
+.middle {
+  z-index: 500;
+  width: 4000px; }
+
+.front {
+  z-index: 1000;
+  width: 4500px;
+  height: 500px; }
+
+.intro {
+  position: absolute;
+  left: 500px;
+  top: 0px;
+  padding-right: 50px;
+  background: url("../images/scroll.png") no-repeat right 5px; }
+
+.page {
+  top: 0px;
+  width: 500px;
+  background: white;
+  padding: 10px 30px;
+  border: 1px #eeeeee solid;
+  position: absolute; }
+
+.description {
+  left: 1500px; }
+
+.documentation {
+  left: 2450px;
+  width: 700px; }
+
+.options {
+  width: 350px;
+  left: 3800px; }
