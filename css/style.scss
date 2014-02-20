@@ -9,8 +9,8 @@ $left: 1500px;
 $width: 3000px;
 $pos1: right; 
 $size: 36px;
-$size2: 24px;
-$family: segoe UI,arial;
+$size2: 20px;
+$family:sans-serif;
 $position: fixed;
 
 html, body{
@@ -36,7 +36,7 @@ h2{
 	position: $position;
 	top: $pad;
 	left: $pad;
-	height: 80px;
+	height: 70px;
 	width: 100%;
 	overflow: hidden;
 	background: url('../images/img1.png') repeat top left;
@@ -44,7 +44,7 @@ h2{
 
 	.logo{
 		float: $pos;
-		padding: 22px;
+		/*padding: 22px;*/
 		padding-left:30px;
 	}
 }
@@ -95,8 +95,7 @@ h2{
     left: 2450px;
     width: 700px;
 }
-.options
-{
-    width: 350px;
+.options{
+    width: 600px;
     left: 3800px;
 }

@@ -2,32 +2,32 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: segoe UI, arial; }
+  font-family: sans-serif; }
 
 h1 {
   font-size: 36px;
   font-weight: normal;
   font-color: #2e4680;
-  font-family: segoe UI, arial; }
+  font-family: sans-serif; }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: normal;
   font-color: #2e4680;
-  font-family: segoe UI, arial; }
+  font-family: sans-serif; }
 
 .header {
   position: fixed;
   top: 0;
   left: 0;
-  height: 80px;
+  height: 70px;
   width: 100%;
   overflow: hidden;
   background: url("../images/img1.png") repeat top left;
   z-index: 1000; }
   .header .logo {
     float: left;
-    padding: 22px;
+    /*padding: 22px;*/
     padding-left: 30px; }
 
 .scroll {
@@ -71,5 +71,5 @@ h2 {
   width: 700px; }
 
 .options {
-  width: 350px;
+  width: 600px;
   left: 3800px; }
