@@ -5,24 +5,24 @@
         <meta name="viewport" content="width=device-width,initial-scale=1,maximun-scale=1">
         <title>Hub DC Distrito Creativo</title>
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/jInvertScroll.css" />
         <link rel="stylesheet" type="text/css" href="css/foundation.min.css">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
     </head><!--end HEAD-->
     <body>
         <div class="container">
+            
             <div class="header">
                 <div class="logo"><img src="images/logo_2.png" width="200px" height="50px"></div>
                 <div class="menucss">
                     <ul>
-                        <li><a href="#home">Inicio</a></li>
-                        <li><a href="#page2">Nuestros servicios</a></li>
-                        <li><a href="#page3">Nuestros Aliados</a></li>
-                        <li><a href="#page4">Contactenos</a></li>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Nuestros servicios</a></li>
+                        <li><a href="#">Nuestros Aliados</a></li>
+                        <li><a href="#">Contactenos</a></li>
                     </ul>
                 </div>
-            </div>
-            <!--end .header-->
+            </div><!--end .header-->
+
             <div class="horizon scroll">
                 <img src="images/img1.png" alt="" />
             </div><!--end  .horizon .scroll-->
@@ -34,9 +34,16 @@
             <div class="front scroll">
 
                 <img src="images/front.png" alt="" />
-                <h1 class="intro">Bienvenido a Hub DC</h1>
+                <div class="intro">
+                    <h1>Bienvenido a Hub DC</h1>
+                    <video width="500" height="380" controls>
+                    <source src="movie.mp4" type="video/mp4">
+                    <!--<source src="movie.ogg" type="video/ogg">-->
+                        Tu navegador no soporta video HTML5
+                    </video>
+                </div>
 
-                <div class="description page" id="home">
+                <div class="description page" data-slide="1">
                     <h2>Sección 1</h2>
                     <p>
                         our bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.
@@ -58,8 +65,8 @@
                         <p><label for="name">Ingresa tu nombre</label></p>
                         <p><input type="text" id="name" placeholder="Mi Nombre"></p>
 
-                        <p><label for="emailContac">Ingresa un email</label></p>
-                        <p><input type="text" id="emailContac" placeholder="micorreo@ejemplo.com"></p>
+                        <!--<p><label for="emailContac">Ingresa un email</label></p>
+                        <p><input type="text" id="emailContac" placeholder="micorreo@ejemplo.com"></p>-->
                                     
                         <p><label for="phone">Ingresa tu celular</label></p>
                         <p><input type="text" id="phone" placeholder="123456789"></p>
