@@ -1,5 +1,7 @@
 /*Template hubdc in sccs*/
 
+@import url(http://fonts.googleapis.com/css?family=Capriola);
+
 $pad: 0;
 $color: #802e46;
 $color2: #eee;
@@ -10,7 +12,7 @@ $width: 3000px;
 $pos1: right; 
 $size: 36px;
 $size2: 20px;
-$family:sans-serif;
+$family:'capriola', sans-serif;
 $position: fixed;
 
 html, body{
@@ -97,8 +99,8 @@ h2{
 
 .scroll{
 	position: $position;
-	bottom: 0;
-	left: 0;
+	bottom: $pad;
+	left: $pad;
 }
 .horizon{
 	z-index: 1;
@@ -122,6 +124,7 @@ h2{
 	top:0px;
 	padding-right:50px;
 	background: url('../images/scroll.png') no-repeat right 5px;
+	font-family: $family;
 }
 
 .page{
@@ -131,6 +134,7 @@ h2{
 	padding: 10px 30px;
 	border: 1px $color2 solid;
 	position: absolute;
+	font-family: $family;
 }
 
 .description{
