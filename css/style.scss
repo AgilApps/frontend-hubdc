@@ -1,7 +1,7 @@
 /*Template hubdc in sccs*/
 
 $pad: 0;
-$color: #2e4680;
+$color: #802e46;
 $color2: #eee;
 $color3: #fff;
 $pos: left;
@@ -21,7 +21,7 @@ html, body{
 h1{
 	font-size: $size;
 	font-weight: normal;
-	font-color: $color;
+	color: $color;
 	font-family: $family;
 }
 
@@ -39,13 +39,59 @@ h2{
 	height: 70px;
 	width: 100%;
 	overflow: hidden;
-	background: url('../images/img1.png') repeat top left;
+	background: url('../images/img2.png') repeat top left;
 	z-index: 1000;
 
 	.logo{
 		float: $pos;
-		/*padding: 22px;*/
 		padding-left:30px;
+		h1{
+			font-family:$family;
+			font-color:$color;
+		}
+	}
+
+	.menucss ul, li, a{
+		margin: $pad;
+		padding:$pad;
+		line-height:1;
+		font-family: $family;
+	}
+
+	.menucss{
+		width: auto;
+		zoom: 1;
+		height: 69px;
+		background: url(images/bottom-bg.png) repeat-x center bottom;
+  		border-radius: 2px;
+
+  		ul{
+  			background: url(images/img2.png) repeat-x 0px, 4px;
+  			height: 69px;
+
+  			li{
+  				float:left;
+  				list-style: none;
+  				a{
+  					display: block;
+  					height: 37px;
+  					padding: 22px 30px $pad;
+  					margin: 4px 2px $pad;
+  					border-radius: 2px 2px $pad $pad;
+  					-moz-border-radius: 2px 2px $pad $pad;
+  					-webkit-border-radius: 2px 2px $pad $pad;
+  					-ms-border-radius: 2px 2px $pad $pad;
+  					-o-border-radius: 2px 2px $pad $pad;
+  					text-decorarion: none; 
+  					font-size: 15px;
+  					color: $color3;
+  					text-shadow: $pad 1px 1px rgba($pad, $pad, $pad, 0.75);
+  					font-weight: 400;
+  					opacity: .9;
+  				}
+  			}
+  		}
+
 	}
 }
 
@@ -96,6 +142,6 @@ h2{
     width: 700px;
 }
 .options{
-    width: 600px;
     left: 3800px;
+    width: 600px;
 }

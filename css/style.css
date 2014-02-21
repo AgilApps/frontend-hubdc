@@ -7,13 +7,13 @@ html, body {
 h1 {
   font-size: 36px;
   font-weight: normal;
-  font-color: #2e4680;
+  color: #802e46;
   font-family: sans-serif; }
 
 h2 {
   font-size: 20px;
   font-weight: normal;
-  font-color: #2e4680;
+  font-color: #802e46;
   font-family: sans-serif; }
 
 .header {
@@ -23,12 +23,47 @@ h2 {
   height: 70px;
   width: 100%;
   overflow: hidden;
-  background: url("../images/img1.png") repeat top left;
+  background: url("../images/img2.png") repeat top left;
   z-index: 1000; }
   .header .logo {
     float: left;
-    /*padding: 22px;*/
     padding-left: 30px; }
+    .header .logo h1 {
+      font-family: sans-serif;
+      font-color: #802e46; }
+  .header .menucss ul, .header li, .header a {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: sans-serif; }
+  .header .menucss {
+    width: auto;
+    zoom: 1;
+    height: 69px;
+    background: url(images/bottom-bg.png) repeat-x center bottom;
+    border-radius: 2px; }
+    .header .menucss ul {
+      background: url(images/img2.png) repeat-x 0px, 4px;
+      height: 69px; }
+      .header .menucss ul li {
+        float: left;
+        list-style: none; }
+        .header .menucss ul li a {
+          display: block;
+          height: 37px;
+          padding: 22px 30px 0;
+          margin: 4px 2px 0;
+          border-radius: 2px 2px 0 0;
+          -moz-border-radius: 2px 2px 0 0;
+          -webkit-border-radius: 2px 2px 0 0;
+          -ms-border-radius: 2px 2px 0 0;
+          -o-border-radius: 2px 2px 0 0;
+          text-decorarion: none;
+          font-size: 15px;
+          color: white;
+          text-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+          font-weight: 400;
+          opacity: .9; }
 
 .scroll {
   position: fixed;
@@ -71,5 +106,5 @@ h2 {
   width: 700px; }
 
 .options {
-  width: 600px;
-  left: 3800px; }
+  left: 3800px;
+  width: 600px; }
