@@ -1,0 +1,177 @@
+/*
+Theme Name: Plantilla Hub DC
+Theme URI: www.hubdc.co
+Description: Tema creado para trabajar los contenidos de la pagina de Hubdc realizada por el equipo de ÁgilApps 
+Version: 1.0
+Author: Equipo de ÁgilApps
+Author URI: www.agilapps.co
+*/
+
+
+/*Template hubdc in sccs*/
+body {
+    font-family: helvetica, Arial, sans-serif;
+}
+h1,h2,h3 {
+    color: #3399FF;
+    font-family:arial;
+}
+h1 {
+    font-size: 14pt ;
+}
+h2 {
+    font-size: 12pt ;
+}
+h3 {
+    font-size: 10pt ;
+}
+li {
+    list-style-type:none;
+}
+#wrapper {
+    display: block;
+    border: 1px #999 solid;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px #999999;
+    width:100%;
+    margin: 0px auto 0px auto;
+}
+header {
+    border-bottom: 1px #999 solid;
+    height: 130px;
+}
+figure.logo {
+    text-align: center;
+    float: left;
+}
+figure.logo figcaption h1 a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #555;
+}
+nav {
+    border-bottom: 1px solid #999999;
+    margin: 0 0 10px 0;
+    text-align: left;
+    padding: 1px;
+    background-image: linear-gradient(bottom, rgb(43,156,184) 9%, rgb(111,229,242) 51%);
+    background-image: -o-linear-gradient(bottom, rgb(43,156,184) 9%, rgb(111,229,242) 51%);
+    background-image: -moz-linear-gradient(bottom, rgb(43,156,184) 9%, rgb(111,229,242) 51%);
+    background-image: -webkit-linear-gradient(bottom, rgb(43,156,184) 9%, rgb(111,229,242) 51%);
+    background-image: -ms-linear-gradient(bottom, rgb(43,156,184) 9%, rgb(111,229,242) 51%);
+    background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.09, rgb(43,156,184)),
+    color-stop(0.51, rgb(111,229,242)));
+ 
+}
+nav li {
+    border-right: 1px solid #FFFFFF;
+    display: inline;
+    padding: 15px;
+}
+nav li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #777777;
+    border-radius: 15px 15px 15px 15px;
+    color: #333333;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+nav li a:hover {
+    background: none ;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+#contenido {
+    float: left;
+    padding: 0 10px;
+    width: 71%;
+    margin: 0 0 15px 0;
+}
+#contenido h2 a {
+    color: #3399FF;
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#entrada {
+    border-bottom: 2px dotted #000000;
+    overflow: hidden;
+    padding: 10px 0 25px;
+}
+p.postmetadata {
+    background: #f9f9f9;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-style: italic;
+}
+div.imagen-post-thumbnail {
+    float: left;
+    margin: 10px 10px 0 0;
+    width: 180px;
+}
+a img.attachment-post-thumbnail {
+    border: 8px solid #CCCCCC;
+    height: 170px;
+    width: 180px;
+}
+a:hover img.attachment-post-thumbnail {
+    border: 8px solid #DE4912;
+}
+div.entry {
+    float: left;
+    margin-left: 17px;
+    width: 500px;
+}
+div.mostrar-comentarios {
+    margin: 15px 0;
+}
+ 
+aside {
+    -webkit-box-shadow: -3px 4px 3px rgba(41, 50, 50, 0.32);
+    -moz-box-shadow:    -3px 4px 3px rgba(41, 50, 50, 0.32);
+     box-shadow:         -3px 4px 3px rgba(41, 50, 50, 0.32);
+    float: right;
+    padding: 0 10px;
+    width: 23%;
+    margin: 0 0 15px 0;
+}
+#buscador {
+    background: #f4f4f4;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+aside h2 {
+    text-align: left;
+    background: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+}
+aside ul li {
+    text-align: left;
+    list-style-type: circle;
+    margin: 5px 0;
+}
+aside ul li a {
+    text-decoration: none;
+    color: #666;
+}
+aside ul li a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+footer {
+    border-top: 1px #999 solid;
+    clear:both;
+    text-align: center;
+    padding: 10px;
+}

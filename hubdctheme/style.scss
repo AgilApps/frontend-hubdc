@@ -1,0 +1,184 @@
+/*Template hubdc in sccs*/
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2);
+
+$width:100;
+$pad: 0;
+$color: #802e46;
+$color2: #eee;
+$color3: #fff;
+$pos: left;
+$left: 1500px;
+$width: 3000px;
+$pos1: right; 
+$size: 36px;
+$size2: 20px;
+$family_2:'capriola', sans-serif;
+$family:'Exo 2', sans-serif;
+$position: fixed;
+
+html, body{
+		margin:$pad;
+		padding:$pad;
+  		font-family:$family;
+	}
+h1{
+	font-size: $size;
+	font-weight: normal;
+	color: $color;
+	font-family: $family;
+}
+
+h2{
+	font-size: $size2;
+	font-weight:normal;
+	font-color: $color;
+	font-family: $family;
+}
+
+#wrapper {
+    display: block;
+    border: 1px #999 solid;
+    width:100%;
+    margin: 0px auto 0px auto;
+}
+
+header{
+	position: $position;
+	top: $pad;
+	left: $pad;
+	height: 70px;
+	width: 100%;
+	overflow: hidden;
+	background: url('images/img2.png') repeat top left;
+	z-index: 1000;
+
+	.logo{
+		float: $pos;
+		padding-left:30px;
+		h1{
+			font-family:$family;
+			font-color:$color;
+		}
+	}
+
+	nav, ul, li ,a{
+		margin: $pad;
+		padding:$pad;
+		line-height:1;
+		font-family: $family;
+	}
+
+	nav{
+		width: auto;
+		zoom: 1;
+		height: 69px;
+		background: url(images/bottom-bg.png) repeat-x center bottom;
+  		border-radius: 2px;
+
+  		ul{
+  			background: url(images/img2.png) repeat-x 0px, 4px;
+  			height: 69px;
+
+  			li{
+  				float:left;
+  				list-style: none;
+  				a{
+  					display: block;
+  					height: 37px;
+  					padding: 22px 30px $pad;
+  					margin: 4px 2px $pad;
+  					border-radius: 2px 2px $pad $pad;
+  					-moz-border-radius: 2px 2px $pad $pad;
+  					-webkit-border-radius: 2px 2px $pad $pad;
+  					-ms-border-radius: 2px 2px $pad $pad;
+  					-o-border-radius: 2px 2px $pad $pad;
+  					text-decorarion: none; 
+  					font-size: 15px;
+  					color: $color3;
+  					text-shadow: $pad 1px 1px rgba($pad, $pad, $pad, 0.75);
+  					font-weight: 400;
+  					opacity: .9;
+
+  					:hover{
+  						color: $color3;
+  					}
+  				}
+  			}
+  		}
+	}
+}
+.scroll{
+	position: $position;
+	bottom: $pad;
+	left: $pad;
+}
+.horizon{
+	z-index: 1;
+	width: $width ;
+}
+
+.middle{
+	z-index: 500;
+	width:4000px;
+}
+
+.front{
+	z-index:1000;
+	width: 4500px;
+	height: 500px;
+}
+
+.intro{
+	position: absolute;
+	left: 500px;
+	top:0px;
+	padding-right:50px;
+	background: url('../images/scroll.png') no-repeat right 5px;
+	font-family: $family;
+	h1{
+		text-align:center;
+		font-family:$family;
+	}
+
+}
+
+.page{
+	top: 0px;
+	width:500px;
+	background:$color3;
+	padding: 10px 30px;
+	border: 1px $color2 solid;
+	position: absolute;
+	font-family: $family;
+}
+
+.description{
+	left: 1500px;
+	width: 700px;
+}
+
+.documentation{
+    left: 2450px;
+    width: 700px;
+}
+.options{
+    left: 3500px;
+    width: 700px;
+}
+
+
+#content {
+    float: left;
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+#content h2 a {
+    color: #3399FF;
+    display: block;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
